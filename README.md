@@ -36,26 +36,28 @@ At project's path run
 From Postman, execute the bellow requests
 
 
-
-
+All API endpoints are accessible under the following base URL: 
+```bash
+  http://localhost:8089
+```
 
 ## API for Match
 
 - #### Find all Matches
 
-```http
+```bash
     GET /api/matches
 ```
 
 - #### Find Match by Id
 
-```http
+```bash
     GET /api/matches/{id}
 ```
 
 - #### Create new Match
 
-```http
+```bash
     POST /api/matches
     Content-Type: application/json
 ```
@@ -74,7 +76,7 @@ Request Body Example:
 
 - #### Update Match By Id
 
-```http
+```bash
     PUT /api/matches/{id}
     Content-Type: application/json
 ```
@@ -93,7 +95,7 @@ Request Body Example:
 
 - #### Delete Match by Id
 
-```http
+```bash
     DELETE /api/matches/{id}
 ```
     
@@ -101,19 +103,19 @@ Request Body Example:
 
 - #### Find all MatchOdds
 
-```http
+```bash
     GET /api/match-odds
 ```
 
 - #### Find MatchOdds by MatchId
 
-```http
+```bash
     GET /api/matches/{matchId}
 ```
 
 - #### Create new MatchOdds
 
-```http
+```bash
     POST /api/matches
     Content-Type: application/json
 ```
@@ -131,7 +133,7 @@ Request Body Example:
 
 - #### Update MatchOdd MatchId
 
-```http
+```bash
     PUT /api/matches/{matchId}
     Content-Type: application/json
 ```
@@ -149,7 +151,7 @@ Request Body Example:
 
 - #### Delete MatchOdd by Id
 
-```http
+```bash
     DELETE /api/matches/{id}
 ```
     
